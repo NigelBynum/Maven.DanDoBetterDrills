@@ -10,8 +10,10 @@ public class PredicateUtilities {
      * @return true if `x` is greater than `y`
      */
     public Boolean isGreaterThan(int x, int y) {
-        return null;
-    }
+        if (x > y) {
+            return true;
+        }
+    };
 
     /**
      * @param x
